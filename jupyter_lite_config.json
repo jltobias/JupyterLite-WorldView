@@ -1,0 +1,8 @@
+{
+  "LiteBuildConfig": {
+    "contents": ["content"]
+  },
+  "PipliteAddon": {
+    "piplite_urls": ["https://pypi.org/pypi/{package}/json"]
+  }
+}

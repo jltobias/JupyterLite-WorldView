@@ -1,0 +1,7 @@
+format: jb-book
+root: intro
+chapters:
+  - file: architecture
+  - file: live-data
+  - file: notebooks
+  - file: attribution
