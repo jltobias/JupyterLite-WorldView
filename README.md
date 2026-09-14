@@ -2,7 +2,7 @@
 
 A browser-only teaching and demonstration environment inspired by **WorldView**, combining JupyterLite notebooks, a Jupyter Book, and a live tactical-style map dashboard.
 
-> **Educational adaptation, not an official WorldView distribution.** This repository is designed to demonstrate geospatial dashboard patterns in a static GitHub Pages environment. It does not reproduce the original React/Express application or its credentialed data services.
+> **Educational adaptation, not an official WorldView distribution.** This repository demonstrates geospatial dashboard patterns in a static GitHub Pages environment. It does not reproduce the original React/Express application or its credentialed data services.
 
 ## Live sites
 
@@ -54,7 +54,7 @@ Copyright for the original WorldView project remains with **Kevin (Khoa) To (202
 ```text
 .
 ├── content/                    # JupyterLite notebooks
-├── book/                       # Jupyter Book 2 / MyST source
+├── book/                       # Jupyter Book source
 ├── dashboard/                  # standalone live tactical map
 ├── .github/workflows/pages.yml # builds and deploys everything to Pages
 ├── index.html                  # Pages landing page
@@ -75,7 +75,7 @@ python -m pip install -r requirements.txt
 rm -rf dist
 mkdir -p dist/lab dist/book dist/dashboard
 jupyter lite build --contents content --output-dir dist/lab
-(cd book && jupyter book build --html)
+jupyter-book build book
 cp -R book/_build/html/. dist/book/
 cp -R dashboard/. dist/dashboard/
 cp index.html dist/index.html
