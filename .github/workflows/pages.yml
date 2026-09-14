@@ -27,7 +27,7 @@ jobs:
       - name: Build JupyterLite
         run: |
           mkdir -p dist/lab
-          jupyter lite build --contents content --output-dir dist/lab
+          jupyter lite build --output-dir dist/lab
       - name: Build Jupyter Book
         run: |
           jupyter-book build book
