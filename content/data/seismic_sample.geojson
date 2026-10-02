@@ -1,0 +1,80 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "title": "SYNTHETIC fallback; not a USGS snapshot"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "SIM-Q0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1,
+          38.8,
+          8
+        ]
+      },
+      "properties": {
+        "mag": 4.5,
+        "place": "Synthetic training event 0",
+        "time": 1789387200000,
+        "url": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIM-Q1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.8,
+          38.95,
+          15
+        ]
+      },
+      "properties": {
+        "mag": 3.2,
+        "place": "Synthetic training event 1",
+        "time": 1789390800000,
+        "url": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIM-Q2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3,
+          38.7,
+          5
+        ]
+      },
+      "properties": {
+        "mag": null,
+        "place": "Synthetic training event 2",
+        "time": 1789394400000,
+        "url": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIM-Q3",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77,
+          38.9,
+          12
+        ]
+      },
+      "properties": {
+        "mag": 0,
+        "place": "Synthetic training event 3",
+        "time": 1789398000000,
+        "url": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "nodes": {
+    "D01": [
+      -77.235,
+      38.71
+    ],
+    "D02": [
+      -77.105,
+      38.71
+    ],
+    "D03": [
+      -76.975,
+      38.71
+    ],
+    "D04": [
+      -76.845,
+      38.71
+    ],
+    "D05": [
+      -77.235,
+      38.83
+    ],
+    "D06": [
+      -77.105,
+      38.83
+    ],
+    "D07": [
+      -76.975,
+      38.83
+    ],
+    "D08": [
+      -76.845,
+      38.83
+    ],
+    "D09": [
+      -77.235,
+      38.95
+    ],
+    "D10": [
+      -77.105,
+      38.95
+    ],
+    "D11": [
+      -76.975,
+      38.95
+    ],
+    "D12": [
+      -76.845,
+      38.95
+    ]
+  },
+  "edges": [
+    {
+      "a": "D01",
+      "b": "D02",
+      "minutes": 9,
+      "closed": false
+    },
+    {
+      "a": "D01",
+      "b": "D05",
+      "minutes": 12,
+      "closed": false
+    },
+    {
+      "a": "D02",
+      "b": "D03",
+      "minutes": 11,
+      "closed": false
+    },
+    {
+      "a": "D02",
+      "b": "D06",
+      "minutes": 14,
+      "closed": false
+    },
+    {
+      "a": "D03",
+      "b": "D04",
+      "minutes": 13,
+      "closed": false
+    },
+    {
+      "a": "D03",
+      "b": "D07",
+      "minutes": 8,
+      "closed": true
+    },
+    {
+      "a": "D04",
+      "b": "D08",
+      "minutes": 10,
+      "closed": false
+    },
+    {
+      "a": "D05",
+      "b": "D06",
+      "minutes": 9,
+      "closed": false
+    },
+    {
+      "a": "D05",
+      "b": "D09",
+      "minutes": 12,
+      "closed": false
+    },
+    {
+      "a": "D06",
+      "b": "D07",
+      "minutes": 11,
+      "closed": true
+    },
+    {
+      "a": "D06",
+      "b": "D10",
+      "minutes": 14,
+      "closed": false
+    },
+    {
+      "a": "D07",
+      "b": "D08",
+      "minutes": 13,
+      "closed": false
+    },
+    {
+      "a": "D07",
+      "b": "D11",
+      "minutes": 8,
+      "closed": true
+    },
+    {
+      "a": "D08",
+      "b": "D12",
+      "minutes": 10,
+      "closed": false
+    },
+    {
+      "a": "D09",
+      "b": "D10",
+      "minutes": 9,
+      "closed": false
+    },
+    {
+      "a": "D10",
+      "b": "D11",
+      "minutes": 11,
+      "closed": false
+    },
+    {
+      "a": "D11",
+      "b": "D12",
+      "minutes": 13,
+      "closed": false
+    }
+  ],
+  "facility_nodes": {
+    "F01": "D01",
+    "F02": "D06",
+    "F03": "D12",
+    "F04": "D04"
+  },
+  "source": "SYNTHETIC undirected travel-time graph; no real roads"
+}

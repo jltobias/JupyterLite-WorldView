@@ -1,0 +1,85 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "F01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.23,
+          38.71
+        ]
+      },
+      "properties": {
+        "id": "F01",
+        "name": "Harbor exercise clinic",
+        "capacity": 70,
+        "open": true,
+        "status": "SIMULATED",
+        "source": "SYNTHETIC exercise v1",
+        "observed_at": "2026-09-14T11:30:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "F02",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1,
+          38.83
+        ]
+      },
+      "properties": {
+        "id": "F02",
+        "name": "Central exercise hospital",
+        "capacity": 110,
+        "open": true,
+        "status": "SIMULATED",
+        "source": "SYNTHETIC exercise v1",
+        "observed_at": "2026-09-14T11:30:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "F03",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.84,
+          38.95
+        ]
+      },
+      "properties": {
+        "id": "F03",
+        "name": "Ridge exercise clinic",
+        "capacity": 55,
+        "open": true,
+        "status": "SIMULATED",
+        "source": "SYNTHETIC exercise v1",
+        "observed_at": "2026-09-14T11:30:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "F04",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.91,
+          38.71
+        ]
+      },
+      "properties": {
+        "id": "F04",
+        "name": "South exercise shelter",
+        "capacity": 90,
+        "open": false,
+        "status": "SIMULATED",
+        "source": "SYNTHETIC exercise v1",
+        "observed_at": "2026-09-14T11:30:00Z"
+      }
+    }
+  ]
+}

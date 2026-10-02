@@ -1,6 +1,6 @@
-title: JupyterLite WorldView
+title: WorldView · Geospatial Field Lab
 author: James Tobias
-logo: ""
+copyright: "2026 James Tobias and contributors"
 only_build_toc_files: true
 execute:
   execute_notebooks: "off"
@@ -10,3 +10,19 @@ html:
 repository:
   url: https://github.com/jltobias/JupyterLite-WorldView
   branch: main
+  path_to_book: book
+sphinx:
+  config:
+    html_static_path: ["_static"]
+    # Code runs in JupyterLite; the book is read-only. Exclude unused Thebe,
+    # whose 0.3.x scripts redeclare globals with this Sphinx/JB combination.
+    extensions:
+      - sphinx_togglebutton
+      - sphinx_copybutton
+      - myst_nb
+      - jupyter_book
+      - sphinx_comments
+      - sphinx_external_toc
+      - sphinx.ext.intersphinx
+      - sphinx_design
+      - sphinx_book_theme

@@ -1,0 +1,545 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "D01",
+      "properties": {
+        "id": "D01",
+        "name": "Exercise district 01",
+        "population": 8000,
+        "cases": 12,
+        "rate_per_100k": 150.0,
+        "reporting_fraction": 1.0,
+        "longitude": -77.235,
+        "latitude": 38.71,
+        "source": "SYNTHETIC exercise v1",
+        "observed_at": "2026-09-14T12:00:00Z",
+        "status": "SIMULATED",
+        "height_m": 750
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.3,
+              38.65
+            ],
+            [
+              -77.17999999999999,
+              38.65
+            ],
+            [
+              -77.17999999999999,
+              38.76
+            ],
+            [
+              -77.3,
+              38.76
+            ],
+            [
+              -77.3,
+              38.65
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "D02",
+      "properties": {
+        "id": "D02",
+        "name": "Exercise district 02",
+        "population": 18000,
+        "cases": 27,
+        "rate_per_100k": 150.0,
+        "reporting_fraction": 0.85,
+        "longitude": -77.105,
+        "latitude": 38.71,
+        "source": "SYNTHETIC exercise v1",
+        "observed_at": "2026-09-14T12:00:00Z",
+        "status": "SIMULATED",
+        "height_m": 750
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.17,
+              38.65
+            ],
+            [
+              -77.05,
+              38.65
+            ],
+            [
+              -77.05,
+              38.76
+            ],
+            [
+              -77.17,
+              38.76
+            ],
+            [
+              -77.17,
+              38.65
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "D03",
+      "properties": {
+        "id": "D03",
+        "name": "Exercise district 03",
+        "population": 12500,
+        "cases": 40,
+        "rate_per_100k": 320.0,
+        "reporting_fraction": 0.7,
+        "longitude": -76.975,
+        "latitude": 38.71,
+        "source": "SYNTHETIC exercise v1",
+        "observed_at": "2026-09-14T12:00:00Z",
+        "status": "SIMULATED",
+        "height_m": 1600
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.03999999999999,
+              38.65
+            ],
+            [
+              -76.91999999999999,
+              38.65
+            ],
+            [
+              -76.91999999999999,
+              38.76
+            ],
+            [
+              -77.03999999999999,
+              38.76
+            ],
+            [
+              -77.03999999999999,
+              38.65
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "D04",
+      "properties": {
+        "id": "D04",
+        "name": "Exercise district 04",
+        "population": 24000,
+        "cases": 32,
+        "rate_per_100k": 133.33333333333334,
+        "reporting_fraction": 1.0,
+        "longitude": -76.845,
+        "latitude": 38.71,
+        "source": "SYNTHETIC exercise v1",
+        "observed_at": "2026-09-14T12:00:00Z",
+        "status": "SIMULATED",
+        "height_m": 667
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -76.91,
+              38.65
+            ],
+            [
+              -76.78999999999999,
+              38.65
+            ],
+            [
+              -76.78999999999999,
+              38.76
+            ],
+            [
+              -76.91,
+              38.76
+            ],
+            [
+              -76.91,
+              38.65
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "D05",
+      "properties": {
+        "id": "D05",
+        "name": "Exercise district 05",
+        "population": 9000,
+        "cases": 45,
+        "rate_per_100k": 500.0,
+        "reporting_fraction": 0.85,
+        "longitude": -77.235,
+        "latitude": 38.83,
+        "source": "SYNTHETIC exercise v1",
+        "observed_at": "2026-09-14T12:00:00Z",
+        "status": "SIMULATED",
+        "height_m": 2500
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.3,
+              38.769999999999996
+            ],
+            [
+              -77.17999999999999,
+              38.769999999999996
+            ],
+            [
+              -77.17999999999999,
+              38.879999999999995
+            ],
+            [
+              -77.3,
+              38.879999999999995
+            ],
+            [
+              -77.3,
+              38.769999999999996
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "D06",
+      "properties": {
+        "id": "D06",
+        "name": "Exercise district 06",
+        "population": 30000,
+        "cases": 48,
+        "rate_per_100k": 160.0,
+        "reporting_fraction": 0.7,
+        "longitude": -77.105,
+        "latitude": 38.83,
+        "source": "SYNTHETIC exercise v1",
+        "observed_at": "2026-09-14T12:00:00Z",
+        "status": "SIMULATED",
+        "height_m": 800
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.17,
+              38.769999999999996
+            ],
+            [
+              -77.05,
+              38.769999999999996
+            ],
+            [
+              -77.05,
+              38.879999999999995
+            ],
+            [
+              -77.17,
+              38.879999999999995
+            ],
+            [
+              -77.17,
+              38.769999999999996
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "D07",
+      "properties": {
+        "id": "D07",
+        "name": "Exercise district 07",
+        "population": 15000,
+        "cases": 90,
+        "rate_per_100k": 600.0,
+        "reporting_fraction": 1.0,
+        "longitude": -76.975,
+        "latitude": 38.83,
+        "source": "SYNTHETIC exercise v1",
+        "observed_at": "2026-09-14T12:00:00Z",
+        "status": "SIMULATED",
+        "height_m": 3000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.03999999999999,
+              38.769999999999996
+            ],
+            [
+              -76.91999999999999,
+              38.769999999999996
+            ],
+            [
+              -76.91999999999999,
+              38.879999999999995
+            ],
+            [
+              -77.03999999999999,
+              38.879999999999995
+            ],
+            [
+              -77.03999999999999,
+              38.769999999999996
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "D08",
+      "properties": {
+        "id": "D08",
+        "name": "Exercise district 08",
+        "population": 22000,
+        "cases": 66,
+        "rate_per_100k": 300.0,
+        "reporting_fraction": 0.85,
+        "longitude": -76.845,
+        "latitude": 38.83,
+        "source": "SYNTHETIC exercise v1",
+        "observed_at": "2026-09-14T12:00:00Z",
+        "status": "SIMULATED",
+        "height_m": 1500
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -76.91,
+              38.769999999999996
+            ],
+            [
+              -76.78999999999999,
+              38.769999999999996
+            ],
+            [
+              -76.78999999999999,
+              38.879999999999995
+            ],
+            [
+              -76.91,
+              38.879999999999995
+            ],
+            [
+              -76.91,
+              38.769999999999996
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "D09",
+      "properties": {
+        "id": "D09",
+        "name": "Exercise district 09",
+        "population": 7000,
+        "cases": 21,
+        "rate_per_100k": 300.0,
+        "reporting_fraction": 0.7,
+        "longitude": -77.235,
+        "latitude": 38.95,
+        "source": "SYNTHETIC exercise v1",
+        "observed_at": "2026-09-14T12:00:00Z",
+        "status": "SIMULATED",
+        "height_m": 1500
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.3,
+              38.89
+            ],
+            [
+              -77.17999999999999,
+              38.89
+            ],
+            [
+              -77.17999999999999,
+              39.0
+            ],
+            [
+              -77.3,
+              39.0
+            ],
+            [
+              -77.3,
+              38.89
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "D10",
+      "properties": {
+        "id": "D10",
+        "name": "Exercise district 10",
+        "population": 27000,
+        "cases": 54,
+        "rate_per_100k": 200.0,
+        "reporting_fraction": 1.0,
+        "longitude": -77.105,
+        "latitude": 38.95,
+        "source": "SYNTHETIC exercise v1",
+        "observed_at": "2026-09-14T12:00:00Z",
+        "status": "SIMULATED",
+        "height_m": 1000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.17,
+              38.89
+            ],
+            [
+              -77.05,
+              38.89
+            ],
+            [
+              -77.05,
+              39.0
+            ],
+            [
+              -77.17,
+              39.0
+            ],
+            [
+              -77.17,
+              38.89
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "D11",
+      "properties": {
+        "id": "D11",
+        "name": "Exercise district 11",
+        "population": 11000,
+        "cases": 22,
+        "rate_per_100k": 200.0,
+        "reporting_fraction": 0.85,
+        "longitude": -76.975,
+        "latitude": 38.95,
+        "source": "SYNTHETIC exercise v1",
+        "observed_at": "2026-09-14T12:00:00Z",
+        "status": "SIMULATED",
+        "height_m": 1000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.03999999999999,
+              38.89
+            ],
+            [
+              -76.91999999999999,
+              38.89
+            ],
+            [
+              -76.91999999999999,
+              39.0
+            ],
+            [
+              -77.03999999999999,
+              39.0
+            ],
+            [
+              -77.03999999999999,
+              38.89
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "D12",
+      "properties": {
+        "id": "D12",
+        "name": "Exercise district 12",
+        "population": 20000,
+        "cases": 20,
+        "rate_per_100k": 100.0,
+        "reporting_fraction": 0.7,
+        "longitude": -76.845,
+        "latitude": 38.95,
+        "source": "SYNTHETIC exercise v1",
+        "observed_at": "2026-09-14T12:00:00Z",
+        "status": "SIMULATED",
+        "height_m": 500
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -76.91,
+              38.89
+            ],
+            [
+              -76.78999999999999,
+              38.89
+            ],
+            [
+              -76.78999999999999,
+              39.0
+            ],
+            [
+              -76.91,
+              39.0
+            ],
+            [
+              -76.91,
+              38.89
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

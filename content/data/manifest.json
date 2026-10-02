@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "generated_by": "scripts/generate_data.py",
+  "license": "MIT",
+  "classification": "SYNTHETIC \u2014 no real districts, facilities, cases, flight or roads",
+  "scenario_clock": "2026-09-14T12:00:00Z",
+  "crs": "WGS 84 longitude, latitude (degrees)",
+  "population_definition": "Fictional resident population, fixed over a 14-day interval",
+  "cases_definition": "Fictional new cases by onset date, one per person, over 2026-09-01 through 2026-09-14",
+  "geography": "Illustrative grid near Washington, DC; not administrative boundaries",
+  "caveats": [
+    "No operational or clinical use",
+    "Reporting fractions are invented sensitivity assumptions",
+    "3D heights encode rates, not terrain or buildings",
+    "No personal or individual-level health data"
+  ]
+}

@@ -1,7 +1,30 @@
 format: jb-book
 root: intro
-chapters:
-  - file: architecture
-  - file: live-data
-  - file: notebooks
-  - file: attribution
+parts:
+  - caption: Field guide
+    chapters:
+      - file: architecture
+      - file: live-data
+      - file: notebooks
+      - file: eoc
+      - file: spatial-epidemiology
+      - file: 3d-scenes
+      - file: astra
+  - caption: Executable labs
+    chapters:
+      - file: labs/00_start_here
+      - file: labs/01_live_seismic
+      - file: labs/02_worldview_dashboard
+      - file: labs/03_build_your_own_layer
+      - file: labs/04_eoc_response
+      - file: labs/05_spatial_epidemiology
+      - file: labs/06_health_access
+      - file: labs/07_3d_scenes
+      - file: labs/08_astra_geospatial_copilot
+      - file: labs/09_raster_change
+      - file: labs/10_capstone
+  - caption: Reference
+    chapters:
+      - file: glossary
+      - file: references
+      - file: attribution

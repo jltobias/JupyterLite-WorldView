@@ -1,0 +1,1178 @@
+[
+  {
+    "district": "D01",
+    "onset_date": "2026-09-01",
+    "cases": 0,
+    "reporting_delay_days": 1,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D01",
+    "onset_date": "2026-09-02",
+    "cases": 0,
+    "reporting_delay_days": 2,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D01",
+    "onset_date": "2026-09-03",
+    "cases": 0,
+    "reporting_delay_days": 3,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D01",
+    "onset_date": "2026-09-04",
+    "cases": 1,
+    "reporting_delay_days": 4,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D01",
+    "onset_date": "2026-09-05",
+    "cases": 1,
+    "reporting_delay_days": 1,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D01",
+    "onset_date": "2026-09-06",
+    "cases": 1,
+    "reporting_delay_days": 2,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D01",
+    "onset_date": "2026-09-07",
+    "cases": 2,
+    "reporting_delay_days": 3,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D01",
+    "onset_date": "2026-09-08",
+    "cases": 2,
+    "reporting_delay_days": 4,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D01",
+    "onset_date": "2026-09-09",
+    "cases": 2,
+    "reporting_delay_days": 1,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D01",
+    "onset_date": "2026-09-10",
+    "cases": 1,
+    "reporting_delay_days": 2,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D01",
+    "onset_date": "2026-09-11",
+    "cases": 1,
+    "reporting_delay_days": 3,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D01",
+    "onset_date": "2026-09-12",
+    "cases": 1,
+    "reporting_delay_days": 4,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D01",
+    "onset_date": "2026-09-13",
+    "cases": 0,
+    "reporting_delay_days": 1,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D01",
+    "onset_date": "2026-09-14",
+    "cases": 0,
+    "reporting_delay_days": 2,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D02",
+    "onset_date": "2026-09-01",
+    "cases": 0,
+    "reporting_delay_days": 1,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D02",
+    "onset_date": "2026-09-02",
+    "cases": 0,
+    "reporting_delay_days": 2,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D02",
+    "onset_date": "2026-09-03",
+    "cases": 1,
+    "reporting_delay_days": 3,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D02",
+    "onset_date": "2026-09-04",
+    "cases": 1,
+    "reporting_delay_days": 4,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D02",
+    "onset_date": "2026-09-05",
+    "cases": 2,
+    "reporting_delay_days": 1,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D02",
+    "onset_date": "2026-09-06",
+    "cases": 2,
+    "reporting_delay_days": 2,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D02",
+    "onset_date": "2026-09-07",
+    "cases": 4,
+    "reporting_delay_days": 3,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D02",
+    "onset_date": "2026-09-08",
+    "cases": 5,
+    "reporting_delay_days": 4,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D02",
+    "onset_date": "2026-09-09",
+    "cases": 4,
+    "reporting_delay_days": 1,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D02",
+    "onset_date": "2026-09-10",
+    "cases": 3,
+    "reporting_delay_days": 2,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D02",
+    "onset_date": "2026-09-11",
+    "cases": 2,
+    "reporting_delay_days": 3,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D02",
+    "onset_date": "2026-09-12",
+    "cases": 1,
+    "reporting_delay_days": 4,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D02",
+    "onset_date": "2026-09-13",
+    "cases": 1,
+    "reporting_delay_days": 1,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D02",
+    "onset_date": "2026-09-14",
+    "cases": 1,
+    "reporting_delay_days": 2,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D03",
+    "onset_date": "2026-09-01",
+    "cases": 1,
+    "reporting_delay_days": 1,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D03",
+    "onset_date": "2026-09-02",
+    "cases": 1,
+    "reporting_delay_days": 2,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D03",
+    "onset_date": "2026-09-03",
+    "cases": 1,
+    "reporting_delay_days": 3,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D03",
+    "onset_date": "2026-09-04",
+    "cases": 1,
+    "reporting_delay_days": 4,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D03",
+    "onset_date": "2026-09-05",
+    "cases": 2,
+    "reporting_delay_days": 1,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D03",
+    "onset_date": "2026-09-06",
+    "cases": 4,
+    "reporting_delay_days": 2,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D03",
+    "onset_date": "2026-09-07",
+    "cases": 5,
+    "reporting_delay_days": 3,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D03",
+    "onset_date": "2026-09-08",
+    "cases": 7,
+    "reporting_delay_days": 4,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D03",
+    "onset_date": "2026-09-09",
+    "cases": 6,
+    "reporting_delay_days": 1,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D03",
+    "onset_date": "2026-09-10",
+    "cases": 5,
+    "reporting_delay_days": 2,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D03",
+    "onset_date": "2026-09-11",
+    "cases": 3,
+    "reporting_delay_days": 3,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D03",
+    "onset_date": "2026-09-12",
+    "cases": 2,
+    "reporting_delay_days": 4,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D03",
+    "onset_date": "2026-09-13",
+    "cases": 1,
+    "reporting_delay_days": 1,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D03",
+    "onset_date": "2026-09-14",
+    "cases": 1,
+    "reporting_delay_days": 2,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D04",
+    "onset_date": "2026-09-01",
+    "cases": 0,
+    "reporting_delay_days": 1,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D04",
+    "onset_date": "2026-09-02",
+    "cases": 0,
+    "reporting_delay_days": 2,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D04",
+    "onset_date": "2026-09-03",
+    "cases": 1,
+    "reporting_delay_days": 3,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D04",
+    "onset_date": "2026-09-04",
+    "cases": 1,
+    "reporting_delay_days": 4,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D04",
+    "onset_date": "2026-09-05",
+    "cases": 2,
+    "reporting_delay_days": 1,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D04",
+    "onset_date": "2026-09-06",
+    "cases": 3,
+    "reporting_delay_days": 2,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D04",
+    "onset_date": "2026-09-07",
+    "cases": 4,
+    "reporting_delay_days": 3,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D04",
+    "onset_date": "2026-09-08",
+    "cases": 6,
+    "reporting_delay_days": 4,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D04",
+    "onset_date": "2026-09-09",
+    "cases": 5,
+    "reporting_delay_days": 1,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D04",
+    "onset_date": "2026-09-10",
+    "cases": 4,
+    "reporting_delay_days": 2,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D04",
+    "onset_date": "2026-09-11",
+    "cases": 2,
+    "reporting_delay_days": 3,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D04",
+    "onset_date": "2026-09-12",
+    "cases": 2,
+    "reporting_delay_days": 4,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D04",
+    "onset_date": "2026-09-13",
+    "cases": 1,
+    "reporting_delay_days": 1,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D04",
+    "onset_date": "2026-09-14",
+    "cases": 1,
+    "reporting_delay_days": 2,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D05",
+    "onset_date": "2026-09-01",
+    "cases": 0,
+    "reporting_delay_days": 1,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D05",
+    "onset_date": "2026-09-02",
+    "cases": 0,
+    "reporting_delay_days": 2,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D05",
+    "onset_date": "2026-09-03",
+    "cases": 1,
+    "reporting_delay_days": 3,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D05",
+    "onset_date": "2026-09-04",
+    "cases": 2,
+    "reporting_delay_days": 4,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D05",
+    "onset_date": "2026-09-05",
+    "cases": 3,
+    "reporting_delay_days": 1,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D05",
+    "onset_date": "2026-09-06",
+    "cases": 4,
+    "reporting_delay_days": 2,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D05",
+    "onset_date": "2026-09-07",
+    "cases": 6,
+    "reporting_delay_days": 3,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D05",
+    "onset_date": "2026-09-08",
+    "cases": 8,
+    "reporting_delay_days": 4,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D05",
+    "onset_date": "2026-09-09",
+    "cases": 7,
+    "reporting_delay_days": 1,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D05",
+    "onset_date": "2026-09-10",
+    "cases": 5,
+    "reporting_delay_days": 2,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D05",
+    "onset_date": "2026-09-11",
+    "cases": 4,
+    "reporting_delay_days": 3,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D05",
+    "onset_date": "2026-09-12",
+    "cases": 3,
+    "reporting_delay_days": 4,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D05",
+    "onset_date": "2026-09-13",
+    "cases": 1,
+    "reporting_delay_days": 1,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D05",
+    "onset_date": "2026-09-14",
+    "cases": 1,
+    "reporting_delay_days": 2,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D06",
+    "onset_date": "2026-09-01",
+    "cases": 0,
+    "reporting_delay_days": 1,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D06",
+    "onset_date": "2026-09-02",
+    "cases": 0,
+    "reporting_delay_days": 2,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D06",
+    "onset_date": "2026-09-03",
+    "cases": 1,
+    "reporting_delay_days": 3,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D06",
+    "onset_date": "2026-09-04",
+    "cases": 2,
+    "reporting_delay_days": 4,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D06",
+    "onset_date": "2026-09-05",
+    "cases": 3,
+    "reporting_delay_days": 1,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D06",
+    "onset_date": "2026-09-06",
+    "cases": 4,
+    "reporting_delay_days": 2,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D06",
+    "onset_date": "2026-09-07",
+    "cases": 6,
+    "reporting_delay_days": 3,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D06",
+    "onset_date": "2026-09-08",
+    "cases": 9,
+    "reporting_delay_days": 4,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D06",
+    "onset_date": "2026-09-09",
+    "cases": 8,
+    "reporting_delay_days": 1,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D06",
+    "onset_date": "2026-09-10",
+    "cases": 5,
+    "reporting_delay_days": 2,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D06",
+    "onset_date": "2026-09-11",
+    "cases": 4,
+    "reporting_delay_days": 3,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D06",
+    "onset_date": "2026-09-12",
+    "cases": 3,
+    "reporting_delay_days": 4,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D06",
+    "onset_date": "2026-09-13",
+    "cases": 2,
+    "reporting_delay_days": 1,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D06",
+    "onset_date": "2026-09-14",
+    "cases": 1,
+    "reporting_delay_days": 2,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D07",
+    "onset_date": "2026-09-01",
+    "cases": 1,
+    "reporting_delay_days": 1,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D07",
+    "onset_date": "2026-09-02",
+    "cases": 1,
+    "reporting_delay_days": 2,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D07",
+    "onset_date": "2026-09-03",
+    "cases": 2,
+    "reporting_delay_days": 3,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D07",
+    "onset_date": "2026-09-04",
+    "cases": 3,
+    "reporting_delay_days": 4,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D07",
+    "onset_date": "2026-09-05",
+    "cases": 5,
+    "reporting_delay_days": 1,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D07",
+    "onset_date": "2026-09-06",
+    "cases": 8,
+    "reporting_delay_days": 2,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D07",
+    "onset_date": "2026-09-07",
+    "cases": 12,
+    "reporting_delay_days": 3,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D07",
+    "onset_date": "2026-09-08",
+    "cases": 17,
+    "reporting_delay_days": 4,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D07",
+    "onset_date": "2026-09-09",
+    "cases": 14,
+    "reporting_delay_days": 1,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D07",
+    "onset_date": "2026-09-10",
+    "cases": 10,
+    "reporting_delay_days": 2,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D07",
+    "onset_date": "2026-09-11",
+    "cases": 7,
+    "reporting_delay_days": 3,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D07",
+    "onset_date": "2026-09-12",
+    "cases": 5,
+    "reporting_delay_days": 4,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D07",
+    "onset_date": "2026-09-13",
+    "cases": 3,
+    "reporting_delay_days": 1,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D07",
+    "onset_date": "2026-09-14",
+    "cases": 2,
+    "reporting_delay_days": 2,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D08",
+    "onset_date": "2026-09-01",
+    "cases": 1,
+    "reporting_delay_days": 1,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D08",
+    "onset_date": "2026-09-02",
+    "cases": 1,
+    "reporting_delay_days": 2,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D08",
+    "onset_date": "2026-09-03",
+    "cases": 2,
+    "reporting_delay_days": 3,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D08",
+    "onset_date": "2026-09-04",
+    "cases": 2,
+    "reporting_delay_days": 4,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D08",
+    "onset_date": "2026-09-05",
+    "cases": 4,
+    "reporting_delay_days": 1,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D08",
+    "onset_date": "2026-09-06",
+    "cases": 6,
+    "reporting_delay_days": 2,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D08",
+    "onset_date": "2026-09-07",
+    "cases": 9,
+    "reporting_delay_days": 3,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D08",
+    "onset_date": "2026-09-08",
+    "cases": 12,
+    "reporting_delay_days": 4,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D08",
+    "onset_date": "2026-09-09",
+    "cases": 10,
+    "reporting_delay_days": 1,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D08",
+    "onset_date": "2026-09-10",
+    "cases": 7,
+    "reporting_delay_days": 2,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D08",
+    "onset_date": "2026-09-11",
+    "cases": 5,
+    "reporting_delay_days": 3,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D08",
+    "onset_date": "2026-09-12",
+    "cases": 4,
+    "reporting_delay_days": 4,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D08",
+    "onset_date": "2026-09-13",
+    "cases": 2,
+    "reporting_delay_days": 1,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D08",
+    "onset_date": "2026-09-14",
+    "cases": 1,
+    "reporting_delay_days": 2,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D09",
+    "onset_date": "2026-09-01",
+    "cases": 0,
+    "reporting_delay_days": 1,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D09",
+    "onset_date": "2026-09-02",
+    "cases": 0,
+    "reporting_delay_days": 2,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D09",
+    "onset_date": "2026-09-03",
+    "cases": 1,
+    "reporting_delay_days": 3,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D09",
+    "onset_date": "2026-09-04",
+    "cases": 1,
+    "reporting_delay_days": 4,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D09",
+    "onset_date": "2026-09-05",
+    "cases": 1,
+    "reporting_delay_days": 1,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D09",
+    "onset_date": "2026-09-06",
+    "cases": 2,
+    "reporting_delay_days": 2,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D09",
+    "onset_date": "2026-09-07",
+    "cases": 3,
+    "reporting_delay_days": 3,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D09",
+    "onset_date": "2026-09-08",
+    "cases": 4,
+    "reporting_delay_days": 4,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D09",
+    "onset_date": "2026-09-09",
+    "cases": 3,
+    "reporting_delay_days": 1,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D09",
+    "onset_date": "2026-09-10",
+    "cases": 2,
+    "reporting_delay_days": 2,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D09",
+    "onset_date": "2026-09-11",
+    "cases": 2,
+    "reporting_delay_days": 3,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D09",
+    "onset_date": "2026-09-12",
+    "cases": 1,
+    "reporting_delay_days": 4,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D09",
+    "onset_date": "2026-09-13",
+    "cases": 1,
+    "reporting_delay_days": 1,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D09",
+    "onset_date": "2026-09-14",
+    "cases": 0,
+    "reporting_delay_days": 2,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D10",
+    "onset_date": "2026-09-01",
+    "cases": 1,
+    "reporting_delay_days": 1,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D10",
+    "onset_date": "2026-09-02",
+    "cases": 1,
+    "reporting_delay_days": 2,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D10",
+    "onset_date": "2026-09-03",
+    "cases": 1,
+    "reporting_delay_days": 3,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D10",
+    "onset_date": "2026-09-04",
+    "cases": 2,
+    "reporting_delay_days": 4,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D10",
+    "onset_date": "2026-09-05",
+    "cases": 3,
+    "reporting_delay_days": 1,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D10",
+    "onset_date": "2026-09-06",
+    "cases": 5,
+    "reporting_delay_days": 2,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D10",
+    "onset_date": "2026-09-07",
+    "cases": 7,
+    "reporting_delay_days": 3,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D10",
+    "onset_date": "2026-09-08",
+    "cases": 10,
+    "reporting_delay_days": 4,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D10",
+    "onset_date": "2026-09-09",
+    "cases": 8,
+    "reporting_delay_days": 1,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D10",
+    "onset_date": "2026-09-10",
+    "cases": 6,
+    "reporting_delay_days": 2,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D10",
+    "onset_date": "2026-09-11",
+    "cases": 4,
+    "reporting_delay_days": 3,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D10",
+    "onset_date": "2026-09-12",
+    "cases": 3,
+    "reporting_delay_days": 4,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D10",
+    "onset_date": "2026-09-13",
+    "cases": 2,
+    "reporting_delay_days": 1,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D10",
+    "onset_date": "2026-09-14",
+    "cases": 1,
+    "reporting_delay_days": 2,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D11",
+    "onset_date": "2026-09-01",
+    "cases": 0,
+    "reporting_delay_days": 1,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D11",
+    "onset_date": "2026-09-02",
+    "cases": 0,
+    "reporting_delay_days": 2,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D11",
+    "onset_date": "2026-09-03",
+    "cases": 1,
+    "reporting_delay_days": 3,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D11",
+    "onset_date": "2026-09-04",
+    "cases": 1,
+    "reporting_delay_days": 4,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D11",
+    "onset_date": "2026-09-05",
+    "cases": 1,
+    "reporting_delay_days": 1,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D11",
+    "onset_date": "2026-09-06",
+    "cases": 2,
+    "reporting_delay_days": 2,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D11",
+    "onset_date": "2026-09-07",
+    "cases": 3,
+    "reporting_delay_days": 3,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D11",
+    "onset_date": "2026-09-08",
+    "cases": 4,
+    "reporting_delay_days": 4,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D11",
+    "onset_date": "2026-09-09",
+    "cases": 3,
+    "reporting_delay_days": 1,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D11",
+    "onset_date": "2026-09-10",
+    "cases": 2,
+    "reporting_delay_days": 2,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D11",
+    "onset_date": "2026-09-11",
+    "cases": 2,
+    "reporting_delay_days": 3,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D11",
+    "onset_date": "2026-09-12",
+    "cases": 1,
+    "reporting_delay_days": 4,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D11",
+    "onset_date": "2026-09-13",
+    "cases": 1,
+    "reporting_delay_days": 1,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D11",
+    "onset_date": "2026-09-14",
+    "cases": 1,
+    "reporting_delay_days": 2,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D12",
+    "onset_date": "2026-09-01",
+    "cases": 0,
+    "reporting_delay_days": 1,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D12",
+    "onset_date": "2026-09-02",
+    "cases": 0,
+    "reporting_delay_days": 2,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D12",
+    "onset_date": "2026-09-03",
+    "cases": 0,
+    "reporting_delay_days": 3,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D12",
+    "onset_date": "2026-09-04",
+    "cases": 1,
+    "reporting_delay_days": 4,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D12",
+    "onset_date": "2026-09-05",
+    "cases": 1,
+    "reporting_delay_days": 1,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D12",
+    "onset_date": "2026-09-06",
+    "cases": 2,
+    "reporting_delay_days": 2,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D12",
+    "onset_date": "2026-09-07",
+    "cases": 3,
+    "reporting_delay_days": 3,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D12",
+    "onset_date": "2026-09-08",
+    "cases": 4,
+    "reporting_delay_days": 4,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D12",
+    "onset_date": "2026-09-09",
+    "cases": 3,
+    "reporting_delay_days": 1,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D12",
+    "onset_date": "2026-09-10",
+    "cases": 2,
+    "reporting_delay_days": 2,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D12",
+    "onset_date": "2026-09-11",
+    "cases": 2,
+    "reporting_delay_days": 3,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D12",
+    "onset_date": "2026-09-12",
+    "cases": 1,
+    "reporting_delay_days": 4,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D12",
+    "onset_date": "2026-09-13",
+    "cases": 1,
+    "reporting_delay_days": 1,
+    "status": "SIMULATED"
+  },
+  {
+    "district": "D12",
+    "onset_date": "2026-09-14",
+    "cases": 0,
+    "reporting_delay_days": 2,
+    "status": "SIMULATED"
+  }
+]

@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "Please cite this educational companion and the original World View project separately."
+title: "JupyterLite WorldView: Geospatial Field Lab"
+type: software
+authors:
+  - family-names: Tobias
+    given-names: James
+repository-code: "https://github.com/jltobias/JupyterLite-WorldView"
+url: "https://jltobias.github.io/JupyterLite-WorldView/"
+license: MIT
+version: 0.2.0
+date-released: 2026-10-02
+abstract: "Browser-based teaching labs for emergency operations, spatial epidemiology, health accessibility, Cesium scenes, and evidence-based GPT-6 Astra workflows. Synthetic scenarios, reproducible calculations, and explicit provenance."
+references:
+  - type: software
+    title: WorldView
+    authors:
+      - family-names: To
+        given-names: "Kevin (Khoa)"
+    repository-code: "https://github.com/kevtoe/worldview"
+    license: MIT

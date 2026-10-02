@@ -1,0 +1,73 @@
+[
+  {
+    "id": "document",
+    "version": "1.0",
+    "name": "SIMULATED supply flight",
+    "clock": {
+      "interval": "2026-09-14T12:00:00Z/2026-09-14T13:00:00Z",
+      "currentTime": "2026-09-14T12:00:00Z",
+      "multiplier": 30,
+      "range": "LOOP_STOP"
+    }
+  },
+  {
+    "id": "supply-1",
+    "name": "SIMULATED supply flight \u2014 illustrative altitude",
+    "availability": "2026-09-14T12:00:00Z/2026-09-14T13:00:00Z",
+    "position": {
+      "epoch": "2026-09-14T12:00:00Z",
+      "cartographicDegrees": [
+        0,
+        -77.23,
+        38.71,
+        1000,
+        900,
+        -77.1,
+        38.83,
+        3500,
+        1800,
+        -76.97,
+        38.9,
+        3500,
+        2700,
+        -76.84,
+        38.95,
+        1000,
+        3600,
+        -76.84,
+        38.95,
+        1000
+      ],
+      "interpolationAlgorithm": "LINEAR",
+      "interpolationDegree": 1
+    },
+    "point": {
+      "pixelSize": 14,
+      "color": {
+        "rgba": [
+          255,
+          188,
+          94,
+          255
+        ]
+      }
+    },
+    "path": {
+      "width": 3,
+      "leadTime": 0,
+      "trailTime": 3600,
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [
+              255,
+              188,
+              94,
+              255
+            ]
+          }
+        }
+      }
+    }
+  }
+]

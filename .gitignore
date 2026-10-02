@@ -1,0 +1,12 @@
+dist/
+book/_build/
+book/labs/
+book/_static/generated/
+__pycache__/
+.pytest_cache/
+.cache/
+.venv/
+.env
+content/exports/
+artifacts/
+.jupyterlite.doit.db*
