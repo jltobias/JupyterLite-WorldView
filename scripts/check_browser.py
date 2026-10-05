@@ -4,6 +4,7 @@ from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 import json
 import threading
 from playwright.sync_api import sync_playwright, expect
+from check_notebook_maps import check_notebook_maps, mock_tiles, assert_tile_referrers
 
 ROOT=Path(__file__).resolve().parents[1];PREFIX='/JupyterLite-WorldView'
 
@@ -25,7 +26,9 @@ def main():
             opts={'headless':True,'args':['--use-angle=swiftshader','--enable-unsafe-swiftshader']}
             if installed:opts['executable_path']=installed
             browser=p.chromium.launch(**opts)
+            check_notebook_maps(browser,base,artifacts)
             page=browser.new_page(viewport={'width':1440,'height':1100});errors=[]
+            mock_tiles(page.context)
             page.on('pageerror',lambda e:errors.append(str(e)))
             page.goto(base+'/',wait_until='networkidle');page.screenshot(path=str(artifacts/'landing.png'),full_page=True)
             assert page.locator('h1').inner_text().startswith('See the pattern.')
@@ -75,10 +78,11 @@ def main():
             page.goto(base+'/book/intro.html');expect(page.locator('article h1')).to_contain_text('Geospatial Field Lab')
             page.goto(base+'/book/labs/05_spatial_epidemiology.html');expect(page.locator('article h1')).to_contain_text('Outbreak investigation')
             assert page.locator('img').count()>0
-            # Execute two real Pyodide notebooks, including plotting and exports.
+            # Execute real Pyodide notebooks, including notebook 03's map regression.
             # A fresh context prevents saved user files from hiding build defects.
-            for filename,export_name in [('00_start_here.ipynb','districts.geojson'),('05_spatial_epidemiology.ipynb','outbreak.geojson')]:
+            for filename,export_name in [('00_start_here.ipynb','districts.geojson'),('03_build_your_own_layer.ipynb','my-facilities.geojson'),('05_spatial_epidemiology.ipynb','outbreak.geojson')]:
                 lite=browser.new_page(viewport={'width':1440,'height':1000})
+                tile_state=mock_tiles(lite.context)
                 lite.on('pageerror',lambda e:errors.append(str(e)))
                 lite.goto(base+'/lab/index.html?path='+filename)
                 lite.get_by_text('Python (Pyodide) | Idle',exact=True).wait_for(timeout=90000)
@@ -91,6 +95,13 @@ def main():
                 lite.get_by_text('exports',exact=True).dblclick(timeout=30000)
                 lite.get_by_text(export_name,exact=True).wait_for(timeout=30000)
                 assert lite.locator('.jp-OutputArea-error').count()==0
+                if filename.startswith('03_'):
+                    # Bring the virtualized map output into view before inspecting it.
+                    frame=lite.frame_locator('iframe[title^="SYNTHETIC facilities"]')
+                    lite.locator('iframe[title^="SYNTHETIC facilities"]').scroll_into_view_if_needed()
+                    expect(frame.locator('#map-status')).to_have_text('Data layer and OpenStreetMap background ready.',timeout=30000)
+                    expect(frame.locator('.leaflet-overlay-pane path')).to_have_count(4)
+                    assert_tile_referrers(tile_state,base)
                 lite.screenshot(path=str(artifacts/(filename+'.png')),full_page=True)
                 print('PASS Pyodide:',filename,flush=True)
                 lite.close()

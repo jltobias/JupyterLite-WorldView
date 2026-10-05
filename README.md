@@ -42,6 +42,8 @@ Open a notebook, choose **Python (Pyodide)**, and use **Run → Run All Cells**.
 
 Start with 00–03 for mapping foundations, 04–06 for EOC and health analysis, 07–09 for 3D and AI, and 10 for the capstone. The seismic notebook defaults to a deterministic **synthetic fallback**; set `USE_LIVE = True` to request USGS data. It never passes the fallback off as observed data.
 
+**Notebook map troubleshooting:** if an older notebook shows OpenStreetMap “Access blocked” tiles, open the lab in a private window to load the updated `worldview_lab.py` and notebooks without deleting your saved work. A normal refresh may keep older browser files. The updated renderer sends the browser's real referring origin, following the [OpenStreetMap tile policy](https://operations.osmfoundation.org/policies/tiles/), and retains your data layer if background tiles fail. Use the **OpenStreetMap background** checkbox to turn tiles off or retry; `map_layer(..., basemap=False)` starts with just your data. Tile service availability and browser/network restrictions still apply.
+
 ## What Astra adds
 
 The official [GPT-6 Astra model documentation](https://developers.openai.com/api/docs/models/gpt-6-astra) supports reasoning, coding, image input, function calling, and structured outputs. These labs apply them to GIS code review, chart interpretation, evidence synthesis, and communication. Exact distances, denominators, network costs, and raster areas are calculated in code. [Vision limitations](https://developers.openai.com/api/docs/guides/images-vision) mean image interpretation must be checked against those calculations. Documentation checked **2026-10-02**.
@@ -75,7 +77,7 @@ python -m http.server --directory dist 8000
 
 Open `http://localhost:8000`. `build_site.py` recreates this checkout's `dist/` and `book/_build/`, copies the canonical notebooks into the book, and builds JupyterLite and Jupyter Book. To refresh committed notebook outputs after an edit, run `python scripts/execute_notebooks.py --write`. To regenerate synthetic fixtures or artwork, run `python scripts/generate_data.py` or `python scripts/make_assets.py` deliberately; the notebooks themselves are the canonical lab source.
 
-Browser checks: `python -m playwright install chromium`, then `python scripts/check_browser.py`. The check serves the site under a repository subpath and exercises filters, imports, errors, 3D, and responsive layouts. On Windows it can also use installed Chrome/Edge. Generated verification artifacts stay under ignored `artifacts/`.
+Browser checks: `python -m playwright install chromium`, then `python scripts/check_browser.py`. The check serves the site under a repository subpath and exercises filters, imports, errors, 3D, responsive layouts, and Pyodide notebooks 00, 03, and 05. Tile responses are mocked to avoid automated traffic to map providers; regression checks verify the browser's actual tile-request Referer, visible attribution, and recovery from HTTP 403 while preserving feature popups. On Windows it can also use installed Chrome/Edge. Generated verification artifacts stay under ignored `artifacts/`.
 
 Pushes to `main` test, build, and deploy through GitHub Actions; pull requests test and build without deployment. Configure GitHub Pages with **Source: GitHub Actions**. External CDNs, map tiles, and live endpoints need network access; the project does not promise offline maps or a production EOC service.
 

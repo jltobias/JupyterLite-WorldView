@@ -18,6 +18,8 @@ The eleven notebooks below are the full labs, including code and checked outputs
 
 For an introductory workshop, run 00–03. For an EOC or public-health workshop, continue with 04–06. For a visualization and AI workshop, complete 07–09. Lab 10 combines the tracks with a scored review rubric.
 
-Use **Run → Run All Cells** in a fresh kernel. The first plotting import may download Matplotlib. Notebook HTML maps use isolated iframes so rerunning a cell does not collide with a previous map. Full-screen dashboard links are available when a viewer restricts iframes.
+Use **Run → Run All Cells** in a fresh kernel. The first plotting import may download Matplotlib. Notebook HTML maps use separate iframe documents so rerunning a cell does not collide with a previous map. Full-screen dashboard links are available when a viewer restricts iframes.
+
+The **OpenStreetMap background** checkbox turns street tiles on or off. If the tile service rejects a request or is unavailable, your data and popups remain usable against a plain background. Select the checkbox to retry, or pass `basemap=False` to `map_layer` to start without tiles. If an older notebook shows “Access blocked” images, open JupyterLite in a private window to load the corrected helper and notebooks without deleting saved work. Refreshing an existing tab may retain old browser files; replacing `worldview_lab.py` also requires restarting the kernel. See [Lab 03](labs/03_build_your_own_layer.ipynb) for details.
 
 Output downloads appear beneath export cells. PNG files such as the raster figure can be downloaded from the file browser's `exports/` directory. A printed path alone does not copy a file to your computer.

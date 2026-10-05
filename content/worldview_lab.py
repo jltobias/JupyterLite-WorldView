@@ -6,6 +6,7 @@ import heapq
 import html
 import json
 import math
+from string import Template
 
 DATA = Path(__file__).parent / 'data'
 
@@ -79,24 +80,55 @@ def validate_geojson(collection):
             if not(-180<=lon<=180 and -90<=lat<=90):raise ValueError('Coordinates out of range')
     return True
 
-def map_layer(collection, value='rate_per_100k', title='SYNTHETIC teaching layer'):
-    """Isolated Leaflet iframe: safe on re-run; escaped labels and JSON."""
+def map_layer(collection, value='rate_per_100k', title='SYNTHETIC teaching layer', *, basemap=True):
+    """Render a trusted Leaflet document; basemap=False shows only the data.
+
+    Keep the embedding page's origin so browser tile requests carry its real
+    Referer, as required by OSM. This iframe is not a security sandbox: only
+    our authored JavaScript runs; caller labels and GeoJSON stay escaped data.
+    """
     validate_geojson(collection)
-    from IPython.display import HTML, display
+    from IPython.display import display
     payload=json.dumps(collection,allow_nan=False).replace('<','\\u003c')
     field=json.dumps(value).replace('<','\\u003c')
-    doc='''<!doctype html><html lang="en"><meta charset="utf-8"><link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
-    <style>body{margin:0;font:14px system-ui}#map{height:420px}header{padding:10px;background:#102536;color:#fff}</style>
-    <header>TITLE | cyan &lt;200 · amber 200–399 · coral ≥400 per 100k (when rate is selected)</header><div id="map"></div>
+    legend=('cyan &lt;200 · amber 200–399 · coral ≥400 per 100k'
+            if value=='rate_per_100k' else 'Select a feature to inspect its attributes and units')
+    # Template substitution is single-pass: words such as FIELD in user data
+    # must never be interpreted as template placeholders.
+    doc=Template('''<!doctype html><html lang="en"><meta charset="utf-8">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+    <style>body{margin:0;font:14px system-ui}#map{height:390px;background:#eef3f5}header{padding:10px;background:#102536;color:#fff}.controls{padding:8px;background:#f2f6f8}#map-status{display:block;margin-top:4px}</style>
+    <header>$title | $legend</header>
+    <div class="controls"><label><input id="basemap" type="checkbox"> OpenStreetMap background</label>
+    <span id="map-status" role="status" aria-live="polite">Data layer ready. Background map off.</span></div>
+    <div id="map" aria-label="Interactive geospatial data layer"></div>
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script><script>
-    const data=PAYLOAD,field=FIELD,m=L.map('map').setView([38.85,-77.04],10);
-    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:18,attribution:'© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>'}).addTo(m);
+    const data=$payload,field=$field,m=L.map('map').setView([38.85,-77.04],10);
     const layer=L.geoJSON(data,{style:f=>({color:'#15364a',weight:2,fillOpacity:.65,fillColor:f.properties[field]>=400?'#ef806f':f.properties[field]>=200?'#f4bc65':'#54c9c1'}),pointToLayer:(f,ll)=>L.circleMarker(ll,{radius:8,color:'#157b85'})});
     layer.eachLayer(l=>{const pre=document.createElement('pre');pre.textContent=JSON.stringify(l.feature.properties,null,2);l.bindPopup(pre)});layer.addTo(m);if(data.features.length)m.fitBounds(layer.getBounds());
-    </script></html>'''.replace('TITLE',html.escape(title)).replace('PAYLOAD',payload).replace('FIELD',field)
-    if value!='rate_per_100k':
-        doc=doc.replace('cyan &lt;200 · amber 200–399 · coral ≥400 per 100k (when rate is selected)', 'Select a feature to inspect its attributes and units')
-    display({'text/html':'<iframe title="'+html.escape(title)+'" sandbox="allow-scripts" style="width:100%;height:470px;border:0" srcdoc="'+html.escape(doc,quote=True)+'"></iframe>'},raw=True)
+    const toggle=document.getElementById('basemap'),status=document.getElementById('map-status');
+    const tiles=L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{
+        maxZoom:18,attribution:'© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>'});
+    tiles.on('tileerror',()=>{
+        if(!m.hasLayer(tiles))return;
+        m.removeLayer(tiles);toggle.checked=false;
+        status.textContent='Background map unavailable. Your data remain visible. Select OpenStreetMap background to retry.';
+    });
+    tiles.on('load',()=>{if(m.hasLayer(tiles))status.textContent='Data layer and OpenStreetMap background ready.'});
+    toggle.addEventListener('change',()=>{
+        if(toggle.checked){status.textContent='Loading OpenStreetMap background…';tiles.addTo(m)}
+        else{m.removeLayer(tiles);status.textContent='Data layer ready. Background map off.'}
+    });
+    // file:// and opaque embedding contexts cannot identify a referring website.
+    if(/^https?:/.test(document.baseURI)){
+        toggle.checked=$basemap;if(toggle.checked)toggle.dispatchEvent(new Event('change'));
+    }else{
+        toggle.disabled=true;
+        status.textContent='Data layer ready. Open this notebook through JupyterLite or an HTTP notebook server to load the background map.';
+    }
+    </script></html>''').substitute(title=html.escape(title),legend=legend,payload=payload,field=field,basemap=json.dumps(bool(basemap)))
+    display({'text/html':'<iframe title="'+html.escape(title)+'" referrerpolicy="strict-origin-when-cross-origin" style="width:100%;height:520px;border:0" srcdoc="'+html.escape(doc,quote=True)+'"></iframe>'},raw=True)
 
 def chart_style():
     import matplotlib.pyplot as plt

@@ -22,6 +22,8 @@ The build copies notebooks into `book/labs/` and figures into `book/_static/gene
 
 JupyterLite synchronizes its content into the browser kernel's filesystem. A file written to `exports/` stays in that browser environment until downloaded. The dashboards use a normal local file picker for GeoJSON. Importing a layer does not publish it, synchronize it to other operators, or save it back to GitHub.
 
+Notebook maps use a separate iframe document for each output. The generated document contains trusted application JavaScript; it is not a security sandbox. Labels are HTML-escaped, GeoJSON is JSON-encoded with script delimiters escaped, and popup properties are inserted as text. Preserving the host origin and setting `strict-origin-when-cross-origin` lets the browser send its real referring origin to OpenStreetMap, as required by the [tile usage policy](https://operations.osmfoundation.org/policies/tiles/). An opaque-origin sandbox can prevent that identification. No proxy or fabricated Referer is used. Failed tiles are removed while the data remain interactive; retries require the user's background-map checkbox. Browser regression checks mock tile responses and check headers, HTTP 403 recovery, and inert labels without requesting live map tiles.
+
 Static pages cannot protect API secrets. The optional Astra runner is not copied to `dist/`, and no API key is required by CI. It accepts a reviewed synthetic evidence file, optionally an image, and uses credentials from a local/server process environment. It is not a public proxy.
 
 ## Verification and maintenance
